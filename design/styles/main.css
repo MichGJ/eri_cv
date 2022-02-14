@@ -1,0 +1,76 @@
+body{
+    
+    background: linear-gradient(to right, #4568dc, #b06ab3);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+hr{
+    color: #4568dc;
+    
+}
+#link{
+    
+    font-family: 'Poppins', sans-serif;
+    border-color:pink;
+    border-style:solid;
+    margin:20px 50px 20px 550px; 
+    text-align: center;
+    background-color:magenta ;
+  
+}
+
+#link:hover{
+    
+    font-size: large;
+    background-color:darkmagenta;
+}
+
+
+
+.contacto{
+    /*align-content: center;
+    margin-top: 20 px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20 px;*/
+    text-align: center;
+    margin: 50px 50px 50px 400px;
+    
+    border-color:pink;
+    border-style:dashed;
+    width: 500px;
+    height: 150px;
+}
+
+.presentation{
+    /*align-content: center;
+    margin-top: 20 px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20 px;*/
+    text-align: center;
+    
+   
+    margin: 50px 50px 50px 250px;
+    border-color:pink;
+    border-style:solid;
+    width: 800px;
+    height: 500px;
+}
+
+#Developer{
+    font-family: fantasy;
+    font-style: italic;
+    font-size: medium;
+}
+
+.Proyectos{
+    text-align: center;
+    font-style: italic;
+    /*color: #572364 ;*/
+    color: gold;
+}
+

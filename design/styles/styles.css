@@ -1,0 +1,37 @@
+#about-me{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+}
+
+#btn-cv{
+    display: none;
+}
+
+h1{
+    color: var(--dark-blue);
+}
+
+
+
+/*es menor < 
+600px telefono celular 
+900px tablet
+1200px computadora
+*/
+@media screen and (min-width: 600px){
+    #about-me{
+        background-color: violet;
+        
+        flex-direction:column-reverse;
+    }
+    #nav-bar{
+        display:none;
+    }
+
+    #btn-cv{
+        display: block;
+    }
+
+
+}
